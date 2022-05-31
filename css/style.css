@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background: rgba(0, 99, 145, 0.75);
+
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items:baseline;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1, h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+#gameCompleteStatus {
+  animation: blinker .75s step-start infinite;
+  font-size: 4.5rem;
+}
+      @keyframes blinker {
+        50% {
+          color: white;
+          opacity: 0;
+        }
+      }
+#reservedGuessSpace{
+  font-size: 4rem;
+  color: rgb(122, 12, 12);
+  text-align: center;
+  height: 20vh;
+  width: 95%;
+  background-color:rgba(255, 255, 255, 0.576);
+  border: 3px solid rgba(96, 40, 218, 0.87);
+  border-radius: 5px;
+}
+
+button, input {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+.guessArrays {
+
+}
