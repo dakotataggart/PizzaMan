@@ -1,6 +1,5 @@
 # PizzaMan
 
-Create a new branch for each new feature
 Create a new branch for any feature you are adding to the project. Do this by entering either of these two options:
 
 `git checkout -b branchName` – This creates the branch and checks it out
@@ -9,6 +8,7 @@ or
 Be sure to always check which branch you are on using “git status” before you begin working!
 /////////////////
 Once your branch is ready to be merged to master (I set origin branch as main), follow these steps.
+
 While in your branch you will:
 
 `git add . 
